@@ -1,7 +1,8 @@
 var playlist = { 'Imagine Dragons': 'Whatever It Takes' };
 
 function updatePlaylist(playlist, artistName, songTitle) {
-    return Object.assign({}, obj, { [artistName]: songTitle })
+    playlist[artistName]: songTitle
+    return playlist;
 }
 
 updatePlaylist(playlist, 'Slowdive', 'Alison');
