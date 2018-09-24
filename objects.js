@@ -1,1 +1,1 @@
-var playlist = { Imagine Dragons: 'Whatever It Takes' };
+var playlist = { 'Imagine Dragons': 'Whatever It Takes' };
